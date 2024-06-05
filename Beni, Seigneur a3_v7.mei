@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mei xml:id="m-1" meiversion="4.0.1" xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <meiHead xml:id="m-2">
+        <fileDesc xml:id="m-3">
+            <titleStmt xml:id="m-4">
+                <title xml:id="m-14" type="main">Beni, Seigneur [TRIO. A 3 DESSUS. | Priere avant le repas.]</title>
+                <title xml:id="m-15" type="subordonate">Second livre de chansons 1578</title>
+                <title type="subtitle">A Digital Edition</title>
+                <composer xml:id="m-16">
+                    <persName auth="VIAF" auth.uri="https://viaf.org/viaf/47029401/">Jean Servin</persName>
+                </composer>
+                <respStmt xml:id="m-22">
+                    <persName xml:id="JP" role="editor">James Porter</persName>
+                    <persName xml:id="MS" role="encoder">Mickael Swithinbank</persName>
+                    <persName xml:id="VB" role="proofreader" auth="orcid" auth.uri="https://orcid.org/0000-0001-5618-8602">Vincent Besson</persName>
+                    <persName xml:id="DN" role="proofreader" auth="orcid" auth.uri="https://orcid.org/0009-0000-2178-2492">David Nivarlet</persName>
+                    <corpName>
+                        <name>Centre national de la recherche scientifique</name>
+                            <abbr>CNRS</abbr>
+                        <corpName>
+                            <name>UMR 7323, Centre d'études supérieures de la Renaissance</name>
+                                <abbr>CESR</abbr>
+                            <corpName>
+                                <name>RicercarLab</name>
+                                <address>
+                                    <street>59 rue Néricault-Destouches</street>
+                                    <postBox>BP 12050</postBox>
+                                    <postCode>37020</postCode>
+                                    <settlement>Tours</settlement>
+                                    <country>France</country>
+                                </address>
+                            </corpName>
+                        </corpName>
+                    </corpName>
+                </respStmt>
+                <funder>
+                    <corpName auth="ROR" auth.uri="https://ror.org/03cv31q28">Centre d'études supérieures de la Renaissance</corpName>
+                    <corpName auth="ROR" auth.uri="https://ror.org/0302b4677">British Academy</corpName>
+                </funder>
+            </titleStmt>
+            <pubStmt xml:id="m-24">
+                <availability xml:id="m-25">
+                    <useRestrict> © 2024 RicercarLab</useRestrict>
+                </availability>
+            </pubStmt>
+            <sourceDesc>
+                <source recordtype="c">
+                    <bibl>
+                        <composer>
+                            <persName auth="VIAF" auth.uri="https://viaf.org/viaf/47029401/">Jean Servin</persName>
+                        </composer>
+                        <title type="main">Second livre de chansons nouvelles à quatre, 1578</title>
+                        <publisher>
+                            <persName auth="VIAF" auth.uri="https://viaf.org/viaf/830004/#Pesnot,_Charles,_15..-1584">Charles Pesnot</persName>
+                        </publisher>
+                        <imprint>
+                            <date>1578</date>
+                            <settlement auth="Geonames" auth.uri="https://www.geonames.org/2996944/lyon.html">Lyon</settlement>
+                        </imprint>
+                        <biblScope>
+                            <num label="page">p. 25v</num>
+                            <num label="workposition">28</num>
+                        </biblScope>
+                        <identifier auth="RISM" auth.uri="https://opac.rism.info/rism/Record/rism990059233">RISM A I, S-2839</identifier>
+                        <relatedItem>
+                            <bibl>
+                                <ref target="https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00010634"></ref>
+                            </bibl>
+                        </relatedItem>
+                    </bibl>
+                </source>
+            </sourceDesc>
+            <encodingDesc>
+                <appInfo>
+                    <application xml:id="sibelius" isodate="2024-5-13T15:41:00Z" version="7120">
+                    <name xml:id="m-8" type="operating-system">Windows 11</name>
+                </application>
+                    <application xml:id="sibmei" type="plugin" version="4.1.0">
+                        <name xml:id="m-10">Sibelius to MEI 4 Exporter (4.1.0)</name>
+                    </application>
+                </appInfo>
+                <ProjectDesc>
+                    <head>RicercarLab research project</head>
+                    <p>Complete Works of Jean Servin</p>
+                </ProjectDesc>
+            </encodingDesc>
+        </fileDesc>
+        <workList xml:id="m-11">
+            <work xml:id="m-12">
+                <title xml:id="m-13" type="main">Beni, Seigneur</title>
+                <title type="part">Beni, Seigneur</title>
+                <composer xml:id="m-17">Jean Servin</composer>
+                <lyricist>
+                    <persName>[…]</persName>
+                </lyricist>
+                <creation>
+                    <date localtype="publication">18 août 1578</date>
+                    <settlement>Lyon</settlement>
+                    <country>France</country>
+                    <dedicatee>
+                        <persName>Monseigneur le Vicomte de Turenne</persName>
+                    </dedicatee>
+                </creation>
+                <classification>
+                    <termList>
+                        <term label="genre">Chanson</term>
+                    </termList>
+                </classification>
+                <relationList>
+                    <relation rel="isPartOf" target="Ricercar Id Work (url)">[…]</relation>
+                </relationList>
+                <notesStmt xml:id="m-20">
+                    <annot xml:id="m-21">Superius: C1; Contratenor: C1; Tenor: C1; Bassus: tacet</annot>
+                </notesStmt>
+                <context>
+                    <annot label="function">Prière d'action de grâce avant un repas</annot>
+                </context>
+                <incip>
+                    <score xml:id="m-32">
+                        <scoreDef>
+                            <staffGrp xml:id="m-34">
+                                <staffDef xml:id="m-35" clef.line="1" clef.shape="C" key.mode="major" key.sig="0" lines="5" n="1" notationtype="mensural" mensur.sign="C" mensur.slash="1">
+                                    <label xml:id="m-36">Superius</label>
+                                    <labelAbbr>S.</labelAbbr>
+                                    <instrDef xml:id="m-38" midi.channel="1" midi.pan="26" midi.volume="100"/>
+                                </staffDef>
+                                <staffDef xml:id="m-39" clef.line="1" clef.shape="C" key.mode="major" key.sig="0" lines="5" n="2" notationtype="mensural" mensur.sign="C" mensur.slash="1">
+                                    <label xml:id="m-40">Contratenor</label>
+                                    <labelAbbr>Ct.</labelAbbr>
+                                    <instrDef xml:id="m-42" midi.channel="2" midi.pan="46" midi.volume="100"/>
+                                </staffDef>
+                                <staffDef xml:id="m-43" clef.line="1" clef.shape="C" key.mode="major" key.sig="0" lines="5" n="3" notationtype="mensural" mensur.sign="C" mensur.slash="1">
+                                    <label xml:id="m-44">Tenor</label>
+                                    <labelAbbr>T.</labelAbbr>
+                                    <instrDef xml:id="m-46" midi.channel="3" midi.pan="81" midi.volume="100"/>
+                                </staffDef>
+                            </staffGrp>
+                        </scoreDef>
+                        <section xml:id="m-52">
+                            <pb xml:id="m-27"/>
+                            <staff xml:id="m-55" n="1">
+                                <layer xml:id="m-56" n="1">
+                                    <note xml:id="m-57" dur="semibrevis" oct="4" pname="g"></note>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="2">
+                                    <rest dur="semibrevis"/>
+                                    <note xml:id="m-58" dur="semibrevis" oct="4" pname="g"></note>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="3">
+                                    <rest dur="semibrevis"/>
+                                    <note xml:id="m-59" dur="minima" oct="4" pname="g"></note>
+                                </layer>
+                            </staff>
+                        </section>
+                    </score>
+                </incip>
+            </work>
+        </workList>
+    </meiHead>
+    <music xml:id="m-28">
+        <body xml:id="m-29">
+            <mdiv xml:id="m-30">
+                <score xml:id="m-32">
+                    <scoreDef xml:id="m-33" lyric.name="Times New Roman" meter.count="2" meter.sym="cut" meter.unit="2" music.name="Opus Std" page.botmar="15mm" page.height="279.4mm" page.leftmar="24mm" page.rightmar="24mm" page.topmar="15mm" page.width="215.9mm" ppq="256" spacing.staff="10" spacing.system="16.5" text.name="Times New Roman" vu.height="0.6mm">
+                        <staffGrp xml:id="m-34">
+                            <staffGrp xml:id="m-47" n="1" symbol="bracket">
+                                <staffDef xml:id="m-35" clef.line="2" clef.shape="G" key.mode="major" key.sig="0" lines="5" n="1">
+                                    <label xml:id="m-36">Superius</label>
+                                    <!-- voice.female.soprano.ensemble.ah -->
+                                    <instrDef xml:id="m-38" midi.channel="1" midi.pan="26" midi.volume="100"/>
+                                </staffDef>
+                                <staffDef xml:id="m-39" clef.line="2" clef.shape="G" key.mode="major" key.sig="0" lines="5" n="2">
+                                    <label xml:id="m-40">Contratenor</label>
+                                    <!-- voice.female.soprano.ensemble.ah -->
+                                    <instrDef xml:id="m-42" midi.channel="2" midi.pan="26" midi.volume="100"/>
+                                </staffDef>
+                                <staffDef xml:id="m-43" clef.line="2" clef.shape="G" key.mode="major" key.sig="0" lines="5" n="3">
+                                    <label xml:id="m-44">Tenor</label>
+                                    <!-- voice.female.soprano.ensemble.ah -->
+                                    <instrDef xml:id="m-46" midi.channel="3" midi.pan="26" midi.volume="100"/>
+                                </staffDef>
+                            </staffGrp>
+                        </staffGrp>
+                    </scoreDef>
+                    <section xml:id="m-48">
+                        <pb xml:id="m-27"/>
+                        <sb xml:id="m-50"/>
+                        <measure xml:id="m-49" metcon="false" n="1">
+                            <staff xml:id="m-51" n="1">
+                                <layer xml:id="m-52" n="1">
+                                    <note xml:id="m-53" dur="1" dur.ppq="1024" oct="4" pname="g" pnum="67" stem.dir="up" tstamp.real="00:00:00" vel="0">
+                                        <app>
+                                            <lem source="manuscrit">
+                                                <verse>
+                                                    <syl>Di</syl>
+                                                </verse>
+                                            </lem>
+                                            <rdg source="livret">
+                                                <verse>
+                                                    <syl>When</syl>
+                                                </verse>
+                                            </rdg>
+                                            <rdg source="feller">
+                                                <verse>
+                                                    <syl>Quand</syl>
+                                                </verse>
+                                            </rdg>
+                                        </app>
+                                    </note>
+                                </layer>
+                            </staff>
+                        </measure>
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
+</mei>

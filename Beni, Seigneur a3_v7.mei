@@ -222,21 +222,21 @@
                         <measure xml:id="m-54" metcon="false" n="1">
                             <staff xml:id="m-55" n="1">
                                 <layer xml:id="m-56" n="1">
-                                    <note xml:id="m-57" dur="1" dur.ppq="1024" oct="4" pname="g" pnum="67" stem.dir="up" tstamp.real="00:00:00" vel="0">
+                                    <note xml:id="m-57" dur="1" dur.ppq="1024" oct="4" pname="f" pnum="67" stem.dir="up" tstamp.real="00:00:00" vel="0">
                                         <app>
                                             <lem source="manuscrit">
                                                 <verse>
-                                                    <syl>Di</syl>
+                                                    <syl>Le</syl>
                                                 </verse>
                                             </lem>
                                             <rdg source="livret">
                                                 <verse>
-                                                    <syl>When</syl>
+                                                    <syl>The</syl>
                                                 </verse>
                                             </rdg>
                                             <rdg source="feller">
                                                 <verse>
-                                                    <syl>Quand</syl>
+                                                    <syl>Die</syl>
                                                 </verse>
                                             </rdg>
                                         </app>

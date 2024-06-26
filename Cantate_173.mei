@@ -125,7 +125,7 @@
                                             </lem>
                                             <rdg source="livret">
                                                 <verse>
-                                                    <syl>I,</syl>
+                                                    <syl>I</syl>
                                                 </verse>
                                             </rdg>
                                             <rdg source="feller">
@@ -213,9 +213,6 @@
                                                 </verse>
                                             </rdg>
                                         </app>
-                                        <verse xml:id="m-61" n="1">
-                                            <syl xml:id="m-62" wordpos="t">rou,</syl>
-                                        </verse>
                                     </note>
                                     <beam xml:id="m-51">
                                         <note xml:id="m-50" dots="1" dur="8" dur.ppq="192" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:01.8" vel="0">

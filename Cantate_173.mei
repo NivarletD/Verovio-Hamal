@@ -71,7 +71,7 @@
                     <persName>Harlez, Simon Joseph de</persName>
                 </lyricist>
                 <creation>
-                    <date localtype="performance">8 avril 1764</date>
+                    <date type="performance">8 avril 1764</date>
                     <settlement>Liège</settlement>
                     <country>Belgium</country>
                     <dedicatee>
@@ -303,7 +303,7 @@
                                                         <syl>Ci</syl>
                                                     </verse>
                                                 </rdg>
-                                            <app>
+                                            </app>
                                         </note>
                                         <note xml:id="m-75" dur="16" dur.ppq="64" oct="4" pname="g" pnum="67" stem.dir="down" tstamp.real="00:00:03.45" vel="0">
                                             <app>
@@ -322,11 +322,11 @@
                                                         <syl>djoû</syl>
                                                     </verse>
                                                 </rdg>
-                                            <app>
+                                            </app>
                                         </note>
                                     </beam>
-                                    <beam xml:id="m-77">
-                                        <note xml:id="m-76" dur="8" dur.ppq="128" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:03.6" vel="0">
+                                    <beam>
+                                        <note dur="8" dur.ppq="128" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:03.6" vel="0">
                                             <app>
                                                 <lem source="manuscrit">
                                                     <verse>
@@ -343,10 +343,9 @@
                                                         <syl>cial</syl>
                                                     </verse>
                                                 </rdg>
-                                            <app>
+                                            </app>
                                         </note>
-                                        </note>
-                                        <note xml:id="m-78" dur="16" dur.ppq="64" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:03.9" vel="0">
+                                        <note dur="16" dur.ppq="64" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:03.9" vel="0">
                                             <app>
                                                 <lem source="manuscrit">
                                                     <verse>
@@ -363,9 +362,9 @@
                                                         <syl>nos</syl>
                                                     </verse>
                                                 </rdg>
-                                            <app>
+                                            </app>
                                         </note>
-                                        <note xml:id="m-79" dur="16" dur.ppq="64" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:00:04.05" vel="0">
+                                        <note dur="16" dur.ppq="64" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:00:04.05" vel="0">
                                             <app>
                                                 <lem source="manuscrit">
                                                     <verse>
@@ -382,7 +381,7 @@
                                                         <syl>ra</syl>
                                                     </verse>
                                                 </rdg>
-                                            <app>
+                                            </app>
                                         </note>
                                     </beam>
                                     <beam xml:id="m-81">
@@ -390,39 +389,39 @@
                                             <app>
                                                 <lem source="manuscrit">
                                                     <verse>
-                                                        <syl xml:id="m-98" wordpos="t">mone</syl>
+                                                        <syl wordpos="t">mone</syl>
                                                     </verse>
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl xml:id="m-98" wordpos="t">mône</syl>
+                                                        <syl wordpos="t">mône</syl>
                                                     </verse>
                                                 </rdg>
                                                 <rdg source="feller">
                                                     <verse>
-                                                        <syl xml:id="m-98" wordpos="t">monne</syl>
+                                                        <syl wordpos="t">monne</syl>
                                                     </verse>
                                                 </rdg>
-                                            <app>
+                                            </app>
                                         </note>
                                         <note xml:id="m-82" dur="8" dur.ppq="128" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:04.5" vel="0">
                                             <app>
                                                 <lem source="manuscrit">
                                                     <verse>
-                                                        <syl xml:id="m-98" wordpos="t">li</syl>
+                                                        <syl wordpos="t">li</syl>
                                                     </verse>
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl xml:id="m-98" wordpos="t">li</syl>
+                                                        <syl wordpos="t">li</syl>
                                                     </verse>
                                                 </rdg>
                                                 <rdg source="feller">
                                                     <verse>
-                                                        <syl xml:id="m-98" wordpos="t">li</syl>
+                                                        <syl wordpos="t">li</syl>
                                                     </verse>
                                                 </rdg>
-                                            <app>
+                                            </app>
                                         </note>
                                     </beam>
                                 </layer>
@@ -454,10 +453,10 @@
                                                     <syl>påye :</syl>
                                                 </verse>
                                             </rdg>
-                                        <app>
+                                        </app>
                                     </note>
-                                    <rest xml:id="m-109" dur="4" dur.ppq="256" tstamp.real="00:00:05.4"/>
-                                    <note xml:id="m-110" dur="4" dur.ppq="256" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:06" vel="0">
+                                    <rest dur="4" dur.ppq="256" tstamp.real="00:00:05.4"/>
+                                    <note dur="4" dur.ppq="256" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:06" vel="0">
                                         <app>
                                             <lem source="manuscrit">
                                                 <verse>
@@ -474,11 +473,11 @@
                                                     <syl>Såf ;</syl>
                                                 </verse>
                                             </rdg>
-                                        <app>
+                                        </app>
                                     </note>
-                                    <rest xml:id="m-111" dur="8" dur.ppq="128" tstamp.real="00:00:06.6"/>
-                                    <beam xml:id="m-113">
-                                        <note xml:id="m-112" dur="16" dur.ppq="64" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:06.9" vel="0">
+                                    <rest dur="8" dur.ppq="128" tstamp.real="00:00:06.6"/>
+                                    <beam>
+                                        <note dur="16" dur.ppq="64" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:06.9" vel="0">
                                             <app>
                                                 <lem source="manuscrit">
                                                     <verse>
@@ -495,9 +494,9 @@
                                                         <syl>qui</syl>
                                                     </verse>
                                                 </rdg>
-                                            <app>
+                                            </app>
                                         </note>
-                                        <note xml:id="m-114" dur="16" dur.ppq="64" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:07.05" vel="0">
+                                        <note dur="16" dur.ppq="64" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:07.05" vel="0">
                                             <app>
                                                 <lem source="manuscrit">
                                                     <verse>
@@ -514,22 +513,22 @@
                                                         <syl>lès</syl>
                                                     </verse>
                                                 </rdg>
-                                            <app>
+                                            </app>
                                         </note>
                                     </beam>
                                 </layer>
                             </staff>
-                            <staff xml:id="m-123" n="2">
-                                <layer xml:id="m-124" n="1">
-                                    <note xml:id="m-125" dur="1" dur.ppq="1024" oct="2" pname="g" pnum="43" stem.dir="up" tstamp.real="00:00:04.8" vel="0"/>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="1" dur.ppq="1024" oct="2" pname="g" pnum="43" stem.dir="up" tstamp.real="00:00:04.8" vel="0"/>
                                 </layer>
                             </staff>
                         </measure>
-                        <sb xml:id="m-127"/>
-                        <measure xml:id="m-126" n="4">
-                            <staff xml:id="m-128" n="1">
-                                <layer xml:id="m-129" n="1">
-                                    <note xml:id="m-130" dur="4" dur.ppq="256" oct="5" pname="g" pnum="79" stem.dir="down" tstamp.real="00:00:07.2" vel="0">
+                        <sb/>
+                        <measure n="4">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note dur="4" dur.ppq="256" oct="5" pname="g" pnum="79" stem.dir="down" tstamp.real="00:00:07.2" vel="0">
                                         <app>
                                             <lem source="manuscrit">
                                                 <verse>
@@ -546,10 +545,10 @@
                                                     <syl>cis,</syl>
                                                 </verse>
                                             </rdg>
-                                        <app>
+                                        </app>
                                     </note>
-                                    <beam xml:id="m-132">
-                                        <note xml:id="m-131" dur="8" dur.ppq="128" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:07.8" vel="0">
+                                    <beam>
+                                        <note dur="8" dur.ppq="128" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:07.8" vel="0">
                                             <app>
                                                 <lem source="manuscrit">
                                                     <verse>
@@ -566,9 +565,9 @@
                                                         <syl>qu&apos;ont</syl>
                                                     </verse>
                                                 </rdg>
-                                            <app>
+                                            </app>
                                         </note>
-                                        <note xml:id="m-133" dur="16" dur.ppq="64" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:08.1" vel="0">
+                                        <note dur="16" dur.ppq="64" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:08.1" vel="0">
                                             <app>
                                                 <lem source="manuscrit">
                                                     <verse>
@@ -585,9 +584,9 @@
                                                         <syl>stu</syl>
                                                     </verse>
                                                 </rdg>
-                                            <app>
+                                            </app>
                                         </note>
-                                        <note xml:id="m-134" dur="16" dur.ppq="64" oct="4" pname="b" pnum="71" stem.dir="down" tstamp.real="00:00:08.25" vel="0">
+                                        <note dur="16" dur.ppq="64" oct="4" pname="b" pnum="71" stem.dir="down" tstamp.real="00:00:08.25" vel="0">
                                             <app>
                                                 <lem source="manuscrit">
                                                     <verse>
@@ -604,10 +603,10 @@
                                                         <syl>strin</syl>
                                                     </verse>
                                                 </rdg>
-                                            <app>
+                                            </app>
                                         </note>
                                     </beam>
-                                    <note xml:id="m-135" dur="4" dur.ppq="256" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:00:08.4" vel="0">
+                                    <note dur="4" dur.ppq="256" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:00:08.4" vel="0">
                                         <app>
                                             <lem source="manuscrit">
                                                 <verse>
@@ -624,11 +623,11 @@
                                                     <syl>dous,</syl>
                                                 </verse>
                                             </rdg>
-                                        <app>
+                                        </app>
                                     </note>
-                                    <rest xml:id="m-136" dur="16" dur.ppq="64" tstamp.real="00:00:09"/>
-                                    <beam xml:id="m-138">
-                                        <note xml:id="m-137" dur="16" dur.ppq="64" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:09.15" vel="0">
+                                    <rest dur="16" dur.ppq="64" tstamp.real="00:00:09"/>
+                                    <beam>
+                                        <note dur="16" dur.ppq="64" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:09.15" vel="0">
                                             <app>
                                                 <lem source="manuscrit">
                                                    <verse>
@@ -637,17 +636,17 @@
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl<syl con="d" wordpos="i">Poi</syl>
+                                                        <syl con="d" wordpos="i">Poi</syl>
                                                     </verse>
                                                 </rdg>
                                                 <rdg source="feller">
                                                     <verse>
-                                                        <syl<syl con="d" wordpos="i">Pô</syl>
+                                                        <syl con="d" wordpos="i">Pô</syl>
                                                     </verse>
                                                 </rdg>
-                                            <app>
+                                            </app>
                                         </note>
-                                        <note xml:id="m-139" dur="16" dur.ppq="64" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:09.3" vel="0">
+                                        <note dur="16" dur.ppq="64" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:09.3" vel="0">
                                             <app>
                                                 <lem source="manuscrit">
                                                    <verse>
@@ -656,17 +655,17 @@
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl<syl con="d" wordpos="i">ront</syl>
+                                                        <syl con="d" wordpos="i">ront</syl>
                                                     </verse>
                                                 </rdg>
                                                 <rdg source="feller">
                                                     <verse>
-                                                        <syl<syl con="d" wordpos="i">ront</syl>
+                                                        <syl con="d" wordpos="i">ront</syl>
                                                     </verse>
                                                 </rdg>
-                                            <app>
+                                            </app>
                                         </note>
-                                        <note xml:id="m-140" dur="16" dur.ppq="64" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:00:09.45" vel="0">
+                                        <note dur="16" dur.ppq="64" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:00:09.45" vel="0">
                                             <app>
                                                 <lem source="manuscrit">
                                                    <verse>
@@ -675,32 +674,32 @@
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl<syl con="d" wordpos="i">tò</syl>
+                                                        <syl con="d" wordpos="i">tò</syl>
                                                     </verse>
                                                 </rdg>
                                                 <rdg source="feller">
                                                     <verse>
-                                                        <syl<syl con="d" wordpos="i">tot</syl>
+                                                        <syl con="d" wordpos="i">tot</syl>
                                                     </verse>
                                                 </rdg>
-                                            <app>
+                                            </app>
                                         </note>
                                     </beam>
                                 </layer>
                             </staff>
-                            <staff xml:id="m-157" n="2">
-                                <layer xml:id="m-158" n="1">
-                                    <note xml:id="m-159" dur="2" dur.ppq="512" oct="2" pname="b" pnum="47" stem.dir="up" tstamp.real="00:00:07.2" vel="0"/>
-                                    <note xml:id="m-160" dur="4" dur.ppq="256" oct="3" pname="c" pnum="48" stem.dir="up" tstamp.real="00:00:08.4" vel="0"/>
-                                    <note xml:id="m-161" dur="4" dur.ppq="256" oct="3" pname="e" pnum="52" stem.dir="down" tstamp.real="00:00:09" vel="0"/>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="2" dur.ppq="512" oct="2" pname="b" pnum="47" stem.dir="up" tstamp.real="00:00:07.2" vel="0"/>
+                                    <note dur="4" dur.ppq="256" oct="3" pname="c" pnum="48" stem.dir="up" tstamp.real="00:00:08.4" vel="0"/>
+                                    <note dur="4" dur.ppq="256" oct="3" pname="e" pnum="52" stem.dir="down" tstamp.real="00:00:09" vel="0"/>
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="m-162" n="5">
-                            <staff xml:id="m-163" n="1">
-                                <layer xml:id="m-164" n="1">
-                                    <beam xml:id="m-166">
-                                        <note xml:id="m-165" dots="1" dur="8" dur.ppq="192" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:09.6" vel="0">
+                        <measure n="5">
+                            <staff n="1">
+                                <layer n="1">
+                                    <beam>
+                                        <note dots="1" dur="8" dur.ppq="192" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:09.6" vel="0">
                                             <app>
                                                 <lem source="manuscrit">
                                                    <verse>
@@ -709,17 +708,17 @@
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl<syl con="d" wordpos="i">bas</syl>
+                                                        <syl con="d" wordpos="i">bas</syl>
                                                     </verse>
                                                 </rdg>
                                                 <rdg source="feller">
                                                     <verse>
-                                                        <syl<syl con="d" wordpos="i">bas</syl>
+                                                        <syl con="d" wordpos="i">bas</syl>
                                                     </verse>
                                                 </rdg>
-                                            <app>
+                                            </app>
                                         </note>
-                                        <note xml:id="m-167" dur="16" dur.ppq="64" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:10.05" vel="0">
+                                        <note dur="16" dur.ppq="64" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:10.05" vel="0">
                                             <app>
                                                 <lem source="manuscrit">
                                                    <verse>
@@ -728,19 +727,19 @@
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl<syl con="d" wordpos="i">le</syl>
+                                                        <syl con="d" wordpos="i">le</syl>
                                                     </verse>
                                                 </rdg>
                                                 <rdg source="feller">
                                                     <verse>
-                                                        <syl<syl con="d" wordpos="i">lèt</syl>
+                                                        <syl con="d" wordpos="i">lèt</syl>
                                                     </verse>
                                                 </rdg>
-                                            <app>
+                                            </app>
                                         </note>
                                     </beam>
-                                    <beam xml:id="m-169">
-                                        <note xml:id="m-168" dur="8" dur.ppq="128" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:10.2" vel="0">
+                                    <beam>
+                                        <note dur="8" dur.ppq="128" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:10.2" vel="0">
                                             <app>
                                                 <lem source="manuscrit">
                                                    <verse>
@@ -749,17 +748,17 @@
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl<syl con="d" wordpos="i">chy</syl>
+                                                        <syl con="d" wordpos="i">chy</syl>
                                                     </verse>
                                                 </rdg>
                                                 <rdg source="feller">
                                                     <verse>
-                                                        <syl<syl con="d" wordpos="i">chî</syl>
+                                                        <syl con="d" wordpos="i">chî</syl>
                                                     </verse>
                                                 </rdg>
-                                            <app>
+                                            </app>
                                         </note>
-                                        <note xml:id="m-170" dur="8" dur.ppq="128" oct="4" pname="b" pnum="71" stem.dir="down" tstamp.real="00:00:10.5" vel="0">
+                                        <note dur="8" dur.ppq="128" oct="4" pname="b" pnum="71" stem.dir="down" tstamp.real="00:00:10.5" vel="0">
                                             <app>
                                                 <lem source="manuscrit">
                                                    <verse>
@@ -776,10 +775,10 @@
                                                         <syl>leûs</syl>
                                                     </verse>
                                                 </rdg>
-                                            <app>
+                                            </app>
                                         </note>
                                     </beam>
-                                    <note xml:id="m-171" dur="4" dur.ppq="256" oct="4" pname="g" pnum="67" stem.dir="down" tstamp.real="00:00:10.8" vel="0">
+                                    <note dur="4" dur.ppq="256" oct="4" pname="g" pnum="67" stem.dir="down" tstamp.real="00:00:10.8" vel="0">
                                         <app>
                                             <lem source="manuscrit">
                                                <verse>
@@ -796,36 +795,35 @@
                                                     <syl>plåyes.</syl>
                                                 </verse>
                                             </rdg>
-                                        <app>
+                                        </app>
                                     </note>
-                                    <rest xml:id="m-172" dur="4" dur.ppq="256" tstamp.real="00:00:11.4"/>
+                                    <rest dur="4" dur.ppq="256" tstamp.real="00:00:11.4"/>
                                 </layer>
                             </staff>
-                            <staff xml:id="m-183" n="2">
-                                <layer xml:id="m-184" n="1">
-                                    <note xml:id="m-185" dur="2" dur.ppq="512" oct="3" pname="e" pnum="52" stem.dir="down" tstamp.real="00:00:09.6" vel="0"/>
-                                    <rest xml:id="m-186" dur="4" dur.ppq="256" tstamp.real="00:00:10.8"/>
-                                    <note xml:id="m-187" dur="4" dur.ppq="256" oct="3" pname="d" pnum="50" stem.dir="down" tstamp.real="00:00:11.4" vel="0"/>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="2" dur.ppq="512" oct="3" pname="e" pnum="52" stem.dir="down" tstamp.real="00:00:09.6" vel="0"/>
+                                    <rest dur="4" dur.ppq="256" tstamp.real="00:00:10.8"/>
+                                    <note dur="4" dur.ppq="256" oct="3" pname="d" pnum="50" stem.dir="down" tstamp.real="00:00:11.4" vel="0"/>
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="m-188" n="6" right="end">
-                            <staff xml:id="m-189" n="1">
-                                <layer xml:id="m-190" n="1">
-                                    <mRest xml:id="m-191" tstamp.real="00:00:12"/>
+                        <measure n="6" right="end">
+                            <staff n="1">
+                                <layer n="1">
+                                    <mRest tstamp.real="00:00:12"/>
                                 </layer>
                             </staff>
-                            <staff xml:id="m-192" n="2">
-                                <layer xml:id="m-193" n="1">
-                                    <note xml:id="m-194" dur="4" dur.ppq="256" oct="3" pname="g" pnum="55" stem.dir="down" tstamp.real="00:00:12" vel="0"/>
-                                    <rest xml:id="m-196" dur="4" dur.ppq="256" tstamp.real="00:00:12.6"/>
-                                    <rest xml:id="m-197" dur="2" dur.ppq="512" tstamp.real="00:00:13.2"/>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note dur="4" dur.ppq="256" oct="3" pname="g" pnum="55" stem.dir="down" tstamp.real="00:00:12" vel="0"/>
+                                    <rest dur="4" dur.ppq="256" tstamp.real="00:00:12.6"/>
+                                    <rest dur="2" dur.ppq="512" tstamp.real="00:00:13.2"/>
                                 </layer>
                             </staff>
-                            <fermata xml:id="m-195" form="norm" layer="1" shape="curved" staff="2" tstamp="1"/>
+                            <fermata form="norm" layer="1" shape="curved" staff="2" tstamp="1"/>
                         </measure>
                     </section>
-                    <annot xml:id="m-24" type="duration">00:00:14.7</annot>
                 </score>
             </mdiv>
         </body>

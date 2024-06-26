@@ -7,10 +7,14 @@
                 <title type="subordonate">
                     <app>
                         <lem source="manuscrit">
-                            Volla don l’moumen tan d’zyré</title>
+                            <verse>
+                                <syl>Volla don l’moumen tan d’zyré</syl>
+                            </verse>
                         </lem>
                         <rdg source="livret">
-                            Volla don l’moumen tan d’zyré</title>
+                            <verse>
+                                <syl>test</syl>
+                            </verse>
                         </lem>
                     </app>
                 <title type="subtitle">A Digital Edition</title>

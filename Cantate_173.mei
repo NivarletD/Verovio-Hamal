@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-16" ?>
 <mei xml:id="m-1" meiversion="4.0.1" xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink">
     <meiHead xml:id="m-2">
         <fileDesc xml:id="m-3">
@@ -42,7 +42,6 @@
                                 <identifier auth="B-Lc" auth.uri="http://bibli.student-crlg.be/opac_css/">1043118</identifier>
                                 <abbr>Ex T582</abbr>
                                 <title type="alternative">Cantâte lîgeois pò l'jôu ki noss Prence Châle d'Oultremont enteurr' â Palâ l'8. d'Avri 1764</title>
-                                <locus label="folio" from="1r" to="2r">ff. 1r-2r</locus>
                                 <biblScope>
                                     <num label="workposition">1</num>
                                 </biblScope>
@@ -93,7 +92,7 @@
         <body xml:id="m-22">
             <mdiv xml:id="m-23">
                 <score xml:id="m-25">
-                    <scoreDef xml:id="m-26" lyric.name="Times New Roman" meter.count="4" meter.unit="4" music.name="Opus Std" page.botmar="15mm" page.height="279.4mm" page.leftmar="24mm" page.rightmar="24mm" page.topmar="15mm" page.width="215.9mm" ppq="256" spacing.staff="13.1875" spacing.system="18.5" text.name="Times New Roman" vu.height="0.6mm">
+                    <scoreDef xml:id="m-26" lyric.name="Times New Roman" meter.count="4" meter.sym="common" meter.unit="4" music.name="Opus Std" page.botmar="15mm" page.height="279.4mm" page.leftmar="24mm" page.rightmar="24mm" page.topmar="15mm" page.width="215.9mm" ppq="256" spacing.staff="24" spacing.system="20" text.name="Times New Roman" vu.height="0.6mm">
                         <staffGrp xml:id="m-27">
                             <staffDef xml:id="m-28" clef.line="1" clef.shape="C" key.mode="major" key.sig="0" lines="5" n="1">
                                 <label xml:id="m-29">Dessus</label>
@@ -101,10 +100,10 @@
                                 <!-- voice.female.soprano.ensemble.ah -->
                                 <instrDef xml:id="m-32" midi.channel="1" midi.pan="26" midi.volume="100"/>
                             </staffDef>
-                            <staffDef xml:id="m-33" clef.line="4" clef.shape="F" key.mode="major" key.sig="0" lines="5" n="2">
+                            <staffDef xml:id="m-33" clef.line="4" clef.shape="F" key.mode="major" key.sig="0" lines="5" n="2" trans.diat="-7" trans.semi="-12">
                                 <label xml:id="m-34">Contre basse</label>
-                                <labelAbbr xml:id="m-35">Hpsd.</labelAbbr>
-                                <!-- keyboard.harpsichord -->
+                                <labelAbbr xml:id="m-35">Cb.</labelAbbr>
+                                <!-- strings.contrabass.ensemble -->
                                 <instrDef xml:id="m-37" midi.channel="1" midi.pan="63" midi.volume="100"/>
                             </staffDef>
                         </staffGrp>
@@ -120,17 +119,17 @@
                                         <app>
                                             <lem source="manuscrit">
                                                 <verse>
-                                                    <syl>i</syl>
+                                                    <syl xml:id="m-54">I</syl>
                                                 </verse>
                                             </lem>
                                             <rdg source="livret">
                                                 <verse>
-                                                    <syl>I</syl>
+                                                    <syl xml:id="m-56">I</syl>   
                                                 </verse>
                                             </rdg>
                                             <rdg source="feller">
                                                 <verse>
-                                                    <syl>I</syl>
+                                                    <syl xml:id="m-58">I</syl>
                                                 </verse>
                                             </rdg>
                                         </app>
@@ -140,18 +139,18 @@
                                             <app>
                                                 <lem source="manuscrit">
                                                     <verse>
-                                                        <syl>n&apos;ia</syl>
+                                                        <syl xml:id="m-60">n&apos;ia</syl>
                                                     </verse>
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl con="b" wordpos="t">ni</syl>
-                                                        <syl>a</syl>
+                                                        <syl xml:id="m-62" con="b">ni</syl>
+                                                        <syl xml:id="m-63">a</syl>
                                                     </verse>
                                                 </rdg>
-                                                <rdg source="feller">
+                                                <rdg source="feller">        
                                                     <verse>
-                                                        <syl>gn-a</syl>
+                                                        <syl xml:id="m-65">gn–a</syl>
                                                     </verse>
                                                 </rdg>
                                             </app>
@@ -160,17 +159,17 @@
                                             <app>
                                                 <lem source="manuscrit">
                                                     <verse>
-                                                        <syl>pu</syl>
+                                                        <syl xml:id="m-67">pu</syl>
                                                     </verse>
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl>pu</syl>
+                                                        <syl xml:id="m-69">pu</syl>
                                                     </verse>
                                                 </rdg>
-                                                <rdg source="feller">
+                                                <rdg source="feller">        
                                                     <verse>
-                                                        <syl>pus</syl>
+                                                        <syl xml:id="m-71">pu</syl>
                                                     </verse>
                                                 </rdg>
                                             </app>
@@ -179,17 +178,17 @@
                                             <app>
                                                 <lem source="manuscrit">
                                                     <verse>
-                                                        <syl con="d" wordpos="i">d&apos;chi</syl>
+                                                        <syl xml:id="m-73" con="d" wordpos="i">d&apos;chi</syl>
                                                     </verse>
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl con="d" wordpos="i">d&apos;Chi</syl>
+                                                        <syl xml:id="m-77" con="d" wordpos="i">d&apos;Chi</syl>
                                                     </verse>
                                                 </rdg>
-                                                <rdg source="feller">
+                                                <rdg source="feller">        
                                                     <verse>
-                                                        <syl con="d" wordpos="i">d&apos;Tchi</syl>
+                                                        <syl xml:id="m-81" con="d" wordpos="i">d&apos;Tchi</syl>
                                                     </verse>
                                                 </rdg>
                                             </app>
@@ -199,17 +198,17 @@
                                         <app>
                                             <lem source="manuscrit">
                                                 <verse>
-                                                    <syl wordpos="t">rou,</syl>
+                                                    <syl xml:id="m-75" wordpos="t">rou,</syl>
                                                 </verse>
                                             </lem>
                                             <rdg source="livret">
                                                 <verse>
-                                                    <syl wordpos="t">rou,</syl>
+                                                    <syl xml:id="m-79" wordpos="t">rou,</syl>  
                                                 </verse>
                                             </rdg>
                                             <rdg source="feller">
                                                 <verse>
-                                                    <syl wordpos="t">rou,</syl>
+                                                    <syl xml:id="m-83" wordpos="t">rous,</syl>
                                                 </verse>
                                             </rdg>
                                         </app>
@@ -219,17 +218,17 @@
                                             <app>
                                                 <lem source="manuscrit">
                                                     <verse>
-                                                        <syl>ni</syl>
+                                                        <syl xml:id="m-85">ni</syl>
                                                     </verse>
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl>ni</syl>
+                                                        <syl xml:id="m-87">ni</syl>
                                                     </verse>
                                                 </rdg>
-                                                <rdg source="feller">
+                                                <rdg source="feller">        
                                                     <verse>
-                                                        <syl>ni</syl>
+                                                        <syl xml:id="m-87">ni</syl>
                                                     </verse>
                                                 </rdg>
                                             </app>
@@ -238,17 +237,17 @@
                                             <app>
                                                 <lem source="manuscrit">
                                                     <verse>
-                                                        <syl con="d" wordpos="i">d&apos;gri</syl>
+                                                        <syl xml:id="m-109" con="d" wordpos="i">d&apos;gri</syl>
                                                     </verse>
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl con="d" wordpos="i">d&apos;Gri</syl>
+                                                        <syl xml:id="m-113" con="d" wordpos="i">d&apos;Gri</syl>
                                                     </verse>
                                                 </rdg>
-                                                <rdg source="feller">
+                                                <rdg source="feller">        
                                                     <verse>
-                                                        <syl con="d" wordpos="i">d&apos;Gri</syl>
+                                                        <syl xml:id="m-117" con="d" wordpos="i">d&apos;Gri</syl>
                                                     </verse>
                                                 </rdg>
                                             </app>
@@ -256,169 +255,171 @@
                                     </beam>
                                 </layer>
                             </staff>
-                            <staff xml:id="m-65" n="2">
-                                <layer xml:id="m-66" n="1">
-                                    <note xml:id="m-67" dur="1" dur.ppq="1024" oct="2" pname="b" pnum="47" stem.dir="up" tstamp.real="00:00:00" vel="0"/>
+                            <staff xml:id="m-90" n="2">
+                                <layer xml:id="m-91" n="1">
+                                    <note xml:id="m-92" dur="1" dur.ppq="1024" oct="1" pname="b" pnum="35" stem.dir="up" tstamp.real="00:00:00" vel="0"/>
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="m-68" n="2">
-                            <staff xml:id="m-69" n="1">
-                                <layer xml:id="m-70" n="1">
-                                    <note xml:id="m-71" dur="4" dur.ppq="256" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:02.4" vel="0">
+                        <measure xml:id="m-93" n="2">
+                            <staff xml:id="m-94" n="1">
+                                <layer xml:id="m-95" n="1">
+                                    <note xml:id="m-96" dur="4" dur.ppq="256" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:02.4" vel="0">
                                         <app>
                                             <lem source="manuscrit">
                                                 <verse>
-                                                    <syl>gnou,</syl>
+                                                    <syl xml:id="m-111" wordpos="t">gnou,</syl>
                                                 </verse>
                                             </lem>
                                             <rdg source="livret">
                                                 <verse>
-                                                    <syl>gnou ;</syl>
+                                                    <syl xml:id="m-115" wordpos="t">gnou ;</syl>  
                                                 </verse>
                                             </rdg>
                                             <rdg source="feller">
                                                 <verse>
-                                                    <syl>gnou ;</syl>
+                                                    <syl xml:id="m-119" wordpos="t">gnous ;</syl>
                                                 </verse>
                                             </rdg>
                                         </app>
                                     </note>
-                                    <rest xml:id="m-72" dur="8" dur.ppq="128" tstamp.real="00:00:03"/>
-                                    <beam xml:id="m-74">
-                                        <note xml:id="m-73" dur="16" dur.ppq="64" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:03.3" vel="0">
+                                    <rest xml:id="m-97" dur="8" dur.ppq="128" tstamp.real="00:00:03"/>
+                                    <beam xml:id="m-99">
+                                        <note xml:id="m-98" dur="16" dur.ppq="64" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:03.3" vel="0">
                                             <app>
                                                 <lem source="manuscrit">
                                                     <verse>
-                                                        <syl>ci</syl>
+                                                        <syl xml:id="m-121">ci</syl>
                                                     </verse>
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl>Ci</syl>
+                                                        <syl xml:id="m-123">Ci</syl>
                                                     </verse>
                                                 </rdg>
-                                                <rdg source="feller">
+                                                <rdg source="feller">        
                                                     <verse>
-                                                        <syl>Ci</syl>
+                                                        <syl xml:id="m-125">Ci</syl>
                                                     </verse>
                                                 </rdg>
                                             </app>
                                         </note>
-                                        <note xml:id="m-75" dur="16" dur.ppq="64" oct="4" pname="g" pnum="67" stem.dir="down" tstamp.real="00:00:03.45" vel="0">
+                                        <note xml:id="m-100" dur="16" dur.ppq="64" oct="4" pname="g" pnum="67" stem.dir="down" tstamp.real="00:00:03.45" vel="0">
                                             <app>
                                                 <lem source="manuscrit">
                                                     <verse>
-                                                        <syl>jou</syl>
+                                                        <syl xml:id="m-127">jou</syl>
                                                     </verse>
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl>jou</syl>
+                                                        <syl xml:id="m-129">jou</syl>
                                                     </verse>
                                                 </rdg>
-                                                <rdg source="feller">
+                                                <rdg source="feller">        
                                                     <verse>
-                                                        <syl>djoû</syl>
-                                                    </verse>
-                                                </rdg>
-                                            </app>
-                                        </note>
-                                    </beam>
-                                    <beam>
-                                        <note dur="8" dur.ppq="128" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:03.6" vel="0">
-                                            <app>
-                                                <lem source="manuscrit">
-                                                    <verse>
-                                                        <syl>cial</syl>
-                                                    </verse>
-                                                </lem>
-                                                <rdg source="livret">
-                                                    <verse>
-                                                        <syl>cial</syl>
-                                                    </verse>
-                                                </rdg>
-                                                <rdg source="feller">
-                                                    <verse>
-                                                        <syl>cial</syl>
-                                                    </verse>
-                                                </rdg>
-                                            </app>
-                                        </note>
-                                        <note dur="16" dur.ppq="64" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:03.9" vel="0">
-                                            <app>
-                                                <lem source="manuscrit">
-                                                    <verse>
-                                                        <syl>no</syl>
-                                                    </verse>
-                                                </lem>
-                                                <rdg source="livret">
-                                                    <verse>
-                                                        <syl>no</syl>
-                                                    </verse>
-                                                </rdg>
-                                                <rdg source="feller">
-                                                    <verse>
-                                                        <syl>nos</syl>
-                                                    </verse>
-                                                </rdg>
-                                            </app>
-                                        </note>
-                                        <note dur="16" dur.ppq="64" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:00:04.05" vel="0">
-                                            <app>
-                                                <lem source="manuscrit">
-                                                    <verse>
-                                                        <syl>ra</syl>
-                                                    </verse>
-                                                </lem>
-                                                <rdg source="livret">
-                                                    <verse>
-                                                        <syl>ra</syl>
-                                                    </verse>
-                                                </rdg>
-                                                <rdg source="feller">
-                                                    <verse>
-                                                        <syl>ra</syl>
+                                                        <syl xml:id="m-135" con="d" wordpos="i">djoû</syl>
                                                     </verse>
                                                 </rdg>
                                             </app>
                                         </note>
                                     </beam>
-                                    <beam>
-                                        <note dur="8" dur.ppq="128" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:04.2" vel="0">
+                                    <beam xml:id="m-102">
+                                        <note xml:id="m-101" dur="8" dur.ppq="128" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:03.6" vel="0">
                                             <app>
                                                 <lem source="manuscrit">
                                                     <verse>
-                                                        <syl wordpos="t">mone</syl>
+                                                        <syl xml:id="m-131">cial</syl>
                                                     </verse>
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl wordpos="t">mône</syl>
+                                                        <syl xml:id="m-133">cial</syl>
                                                     </verse>
                                                 </rdg>
-                                                <rdg source="feller">
+                                                <rdg source="feller">        
                                                     <verse>
-                                                        <syl wordpos="t">monne</syl>
+                                                        <syl xml:id="m-137" wordpos="t">cial</syl>
                                                     </verse>
                                                 </rdg>
                                             </app>
                                         </note>
-                                        <note dur="8" dur.ppq="128" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:04.5" vel="0">
+                                        <note xml:id="m-103" dur="16" dur.ppq="64" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:03.9" vel="0">
                                             <app>
                                                 <lem source="manuscrit">
                                                     <verse>
-                                                        <syl wordpos="t">li</syl>
+                                                        <syl xml:id="m-139">no</syl>
                                                     </verse>
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl wordpos="t">li</syl>
+                                                        <syl xml:id="m-141">no</syl>
                                                     </verse>
                                                 </rdg>
-                                                <rdg source="feller">
+                                                <rdg source="feller">        
                                                     <verse>
-                                                        <syl wordpos="t">li</syl>
+                                                        <syl xml:id="m-143">nos</syl>
+                                                    </verse>
+                                                </rdg>
+                                            </app>
+                                        </note>
+                                        <note xml:id="m-104" dur="16" dur.ppq="64" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:00:04.05" vel="0">
+                                            <app>
+                                                <lem source="manuscrit">
+                                                    <verse>
+                                                        <syl xml:id="m-145" con="d" wordpos="i">ra</syl>
+                                                    </verse>
+                                                </lem>
+                                                <rdg source="livret">
+                                                    <verse>
+                                                        <syl xml:id="m-152" con="d" wordpos="i">ra</syl>
+                                                    </verse>
+                                                </rdg>
+                                                <rdg source="feller">        
+                                                    <verse>
+                                                        <syl xml:id="m-159" con="d" wordpos="i">ra</syl>
+                                                    </verse>
+                                                </rdg>
+                                            </app>
+                                        </note>
+                                    </beam>
+                                    <beam xml:id="m-106">
+                                        <note xml:id="m-105" dur="8" dur.ppq="128" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:04.2" vel="0">
+                                            <app>    
+                                                <lem source="manuscrit">
+                                                    <verse>
+                                                        <syl xml:id="m-147" con="d" wordpos="m">mo</syl>
+                                                    </verse>
+                                                </lem>
+                                                <rdg source="livret">
+                                                    <verse>
+                                                        <syl xml:id="m-154" con="d" wordpos="m">mô</syl>
+                                                    </verse>
+                                                </rdg>
+                                                <rdg source="feller">        
+                                                    <verse>
+                                                        <syl xml:id="m-161" con="d" wordpos="m">mon</syl>
+                                                    </verse>
+                                                </rdg>
+                                            </app>                                        </note>
+                                        <note xml:id="m-107" dur="8" dur.ppq="128" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:04.5" vel="0">
+                                            <app>    
+                                                <lem source="manuscrit">
+                                                    <verse>
+                                                        <syl xml:id="m-149" con="b" wordpos="t">ne</syl>
+                                                        <syl xml:id="m-150">li</syl>
+                                                    </verse>
+                                                </lem>
+                                                <rdg source="livret">
+                                                    <verse>
+                                                        <syl xml:id="m-156" con="b" wordpos="t">ne</syl>
+                                                        <syl xml:id="m-157">li</syl>
+                                                    </verse>
+                                                </rdg>
+                                                <rdg source="feller">        
+                                                    <verse>
+                                                        <syl xml:id="m-163" con="b" wordpos="t">ne</syl>
+                                                        <syl xml:id="m-164">li</syl>
                                                     </verse>
                                                 </rdg>
                                             </app>
@@ -426,91 +427,91 @@
                                     </beam>
                                 </layer>
                             </staff>
-                            <staff n="2">
-                                <layer xml:id="m-102" n="1">
-                                    <note xml:id="m-103" dur="2" dur.ppq="512" oct="3" pname="c" pnum="48" stem.dir="up" tstamp.real="00:00:02.4" vel="0"/>
-                                    <note xml:id="m-104" dur="2" dur.ppq="512" oct="2" pname="a" pnum="45" stem.dir="up" tstamp.real="00:00:03.6" vel="0"/>
+                            <staff xml:id="m-165" n="2">
+                                <layer xml:id="m-166" n="1">
+                                    <note xml:id="m-167" dur="2" dur.ppq="512" oct="2" pname="c" pnum="36" stem.dir="up" tstamp.real="00:00:02.4" vel="0"/>
+                                    <note xml:id="m-168" dur="2" dur.ppq="512" oct="1" pname="a" pnum="33" stem.dir="up" tstamp.real="00:00:03.6" vel="0"/>
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="m-105" n="3">
-                            <staff xml:id="m-106" n="1">
-                                <layer xml:id="m-107" n="1">
-                                    <note xml:id="m-108" dur="4" dur.ppq="256" oct="4" pname="b" pnum="71" stem.dir="down" tstamp.real="00:00:04.8" vel="0">
+                        <measure xml:id="m-169" n="3">
+                            <staff xml:id="m-170" n="1">
+                                <layer xml:id="m-171" n="1">
+                                    <note xml:id="m-172" dur="4" dur.ppq="256" oct="4" pname="b" pnum="71" stem.dir="down" tstamp.real="00:00:04.8" vel="0">
                                         <app>
                                             <lem source="manuscrit">
                                                 <verse>
-                                                    <syl>paie,</syl>
+                                                    <syl xml:id="m-180">paie,</syl>
                                                 </verse>
                                             </lem>
                                             <rdg source="livret">
                                                 <verse>
-                                                    <syl>pâie :</syl>
+                                                    <syl xml:id="m-182">pâie :</syl>
                                                 </verse>
                                             </rdg>
                                             <rdg source="feller">
                                                 <verse>
-                                                    <syl>påye :</syl>
+                                                    <syl xml:id="m-184">plåye :</syl>
                                                 </verse>
                                             </rdg>
                                         </app>
                                     </note>
-                                    <rest dur="4" dur.ppq="256" tstamp.real="00:00:05.4"/>
-                                    <note dur="4" dur.ppq="256" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:06" vel="0">
+                                    <rest xml:id="m-173" dur="4" dur.ppq="256" tstamp.real="00:00:05.4"/>
+                                    <note xml:id="m-174" dur="4" dur.ppq="256" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:06" vel="0">
                                         <app>
                                             <lem source="manuscrit">
                                                 <verse>
-                                                    <syl>save,</syl>
+                                                    <syl xml:id="m-186">save,</syl>
                                                 </verse>
                                             </lem>
                                             <rdg source="livret">
                                                 <verse>
-                                                    <syl>Sâf,</syl>
+                                                    <syl xml:id="m-188">Sâf ;</syl>
                                                 </verse>
                                             </rdg>
                                             <rdg source="feller">
                                                 <verse>
-                                                    <syl>Såf ;</syl>
+                                                    <syl xml:id="m-190">Såf ;</syl>
                                                 </verse>
                                             </rdg>
                                         </app>
                                     </note>
-                                    <rest dur="8" dur.ppq="128" tstamp.real="00:00:06.6"/>
-                                    <beam>
-                                        <note dur="16" dur.ppq="64" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:06.9" vel="0">
-                                            <app>
+                                    <rest xml:id="m-175" dur="8" dur.ppq="128" tstamp.real="00:00:06.6"/>
+                                    <beam xml:id="m-177">
+                                        <note xml:id="m-176" dur="16" dur.ppq="64" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:06.9" vel="0">
+                                            <app>    
                                                 <lem source="manuscrit">
                                                     <verse>
-                                                        <syl>ki</syl>
+                                                        <syl xml:id="m-192">ki</syl>
                                                     </verse>
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl>ki</syl>
+                                                        <syl xml:id="m-194">ki</syl>
                                                     </verse>
                                                 </rdg>
-                                                <rdg source="feller">
+                                                <rdg source="feller">        
                                                     <verse>
-                                                        <syl>qui</syl>
+                                                        <syl xml:id="m-196">qui</syl>
                                                     </verse>
                                                 </rdg>
                                             </app>
                                         </note>
-                                        <note dur="16" dur.ppq="64" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:07.05" vel="0">
-                                            <app>
+                                        <note xml:id="m-178" dur="16" dur.ppq="64" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:07.05" vel="0">
+                                            <app>    
                                                 <lem source="manuscrit">
                                                     <verse>
-                                                        <syl>les</syl>
+                                                        <syl xml:id="m-198">les</syl>
                                                     </verse>
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl>les</syl>
+                                                        <syl xml:id="m-200">les</syl>
                                                     </verse>
                                                 </rdg>
-                                                <rdg source="feller">
+                                                <rdg source="feller">        
                                                     <verse>
-                                                        <syl>lès</syl>
+                                                        <syl xml:id="m-202">lès</syl>
                                                     </verse>
                                                 </rdg>
                                             </app>
@@ -518,168 +519,168 @@
                                     </beam>
                                 </layer>
                             </staff>
-                            <staff n="2">
-                                <layer n="1">
-                                    <note dur="1" dur.ppq="1024" oct="2" pname="g" pnum="43" stem.dir="up" tstamp.real="00:00:04.8" vel="0"/>
+                            <staff xml:id="m-203" n="2">
+                                <layer xml:id="m-204" n="1">
+                                    <note xml:id="m-205" dur="1" dur.ppq="1024" oct="1" pname="g" pnum="31" stem.dir="up" tstamp.real="00:00:04.8" vel="0"/>
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
-                        <measure n="4">
-                            <staff n="1">
-                                <layer n="1">
-                                    <note dur="4" dur.ppq="256" oct="5" pname="g" pnum="79" stem.dir="down" tstamp.real="00:00:07.2" vel="0">
+                        <sb xml:id="m-207"/>
+                        <measure xml:id="m-206" n="4">
+                            <staff xml:id="m-208" n="1">
+                                <layer xml:id="m-209" n="1">
+                                    <note xml:id="m-210" dur="4" dur.ppq="256" oct="5" pname="g" pnum="79" stem.dir="down" tstamp.real="00:00:07.2" vel="0">
                                         <app>
                                             <lem source="manuscrit">
                                                 <verse>
-                                                    <syl>ci</syl>
+                                                    <syl xml:id="m-222">ci</syl>
                                                 </verse>
                                             </lem>
                                             <rdg source="livret">
                                                 <verse>
-                                                    <syl>ci,</syl>
+                                                    <syl xml:id="m-224">ci</syl> 
                                                 </verse>
                                             </rdg>
                                             <rdg source="feller">
                                                 <verse>
-                                                    <syl>cis,</syl>
+                                                    <syl xml:id="m-226">cis</syl>
                                                 </verse>
                                             </rdg>
                                         </app>
                                     </note>
-                                    <beam>
-                                        <note dur="8" dur.ppq="128" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:07.8" vel="0">
-                                            <app>
+                                    <beam xml:id="m-212">
+                                        <note xml:id="m-211" dur="8" dur.ppq="128" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:07.8" vel="0">
+                                            <app>    
                                                 <lem source="manuscrit">
                                                     <verse>
-                                                        <syl>k&apos;on</syl>
+                                                        <syl xml:id="m-228">k&apos;on</syl>
                                                     </verse>
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl>k&apos;on</syl>
+                                                        <syl xml:id="m-230">k&apos;on</syl>
                                                     </verse>
                                                 </rdg>
-                                                <rdg source="feller">
+                                                <rdg source="feller">        
                                                     <verse>
-                                                        <syl>qu&apos;ont</syl>
+                                                        <syl xml:id="m-232">qu&apos;ont</syl>
                                                     </verse>
                                                 </rdg>
                                             </app>
                                         </note>
-                                        <note dur="16" dur.ppq="64" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:08.1" vel="0">
-                                            <app>
+                                        <note xml:id="m-213" dur="16" dur.ppq="64" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:08.1" vel="0">
+                                            <app>    
                                                 <lem source="manuscrit">
                                                     <verse>
-                                                        <syl>stu</syl>
+                                                        <syl xml:id="m-234">stu</syl>
                                                     </verse>
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl>stu</syl>
+                                                        <syl xml:id="m-236">stu</syl>
                                                     </verse>
                                                 </rdg>
-                                                <rdg source="feller">
+                                                <rdg source="feller">        
                                                     <verse>
-                                                        <syl>stu</syl>
+                                                        <syl xml:id="m-238">stu</syl>
                                                     </verse>
                                                 </rdg>
                                             </app>
                                         </note>
-                                        <note dur="16" dur.ppq="64" oct="4" pname="b" pnum="71" stem.dir="down" tstamp.real="00:00:08.25" vel="0">
-                                            <app>
+                                        <note xml:id="m-214" dur="16" dur.ppq="64" oct="4" pname="b" pnum="71" stem.dir="down" tstamp.real="00:00:08.25" vel="0">
+                                            <app>    
                                                 <lem source="manuscrit">
                                                     <verse>
-                                                        <syl>stren</syl>
+                                                        <syl xml:id="m-240" con="d" wordpos="i">stren</syl>
                                                     </verse>
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl>stren</syl>
+                                                        <syl xml:id="m-244" con="d" wordpos="i">stren</syl>
                                                     </verse>
                                                 </rdg>
-                                                <rdg source="feller">
+                                                <rdg source="feller">        
                                                     <verse>
-                                                        <syl>strin</syl>
+                                                        <syl xml:id="m-248" con="d" wordpos="i">strin</syl>
                                                     </verse>
                                                 </rdg>
                                             </app>
                                         </note>
                                     </beam>
-                                    <note dur="4" dur.ppq="256" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:00:08.4" vel="0">
-                                        <app>
+                                    <note xml:id="m-215" dur="4" dur.ppq="256" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:00:08.4" vel="0">
+                                        <app>    
                                             <lem source="manuscrit">
                                                 <verse>
-                                                    <syl>dou,</syl>
+                                                    <syl xml:id="m-242" wordpos="t">dou,</syl>
                                                 </verse>
                                             </lem>
                                             <rdg source="livret">
                                                 <verse>
-                                                    <syl>dou,</syl>
+                                                    <syl xml:id="m-246" wordpos="t">dou,</syl>
                                                 </verse>
                                             </rdg>
-                                            <rdg source="feller">
+                                            <rdg source="feller">        
                                                 <verse>
-                                                    <syl>dous,</syl>
+                                                     <syl xml:id="m-250" wordpos="t">dous</syl>
                                                 </verse>
                                             </rdg>
                                         </app>
                                     </note>
-                                    <rest dur="16" dur.ppq="64" tstamp.real="00:00:09"/>
-                                    <beam>
-                                        <note dur="16" dur.ppq="64" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:09.15" vel="0">
-                                            <app>
+                                    <rest xml:id="m-216" dur="16" dur.ppq="64" tstamp.real="00:00:09"/>
+                                    <beam xml:id="m-218">
+                                        <note xml:id="m-217" dur="16" dur.ppq="64" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:09.15" vel="0">
+                                            <app>    
                                                 <lem source="manuscrit">
-                                                   <verse>
-                                                        <syl con="d" wordpos="i">poi</syl>
+                                                    <verse>
+                                                        <syl xml:id="m-252" con="d" wordpos="i">poi</syl>
                                                     </verse>
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl con="d" wordpos="i">Poi</syl>
+                                                        <syl xml:id="m-256" con="d" wordpos="i">Poi</syl>
                                                     </verse>
                                                 </rdg>
-                                                <rdg source="feller">
+                                                <rdg source="feller">        
                                                     <verse>
-                                                        <syl con="d" wordpos="i">Pô</syl>
+                                                        <syl xml:id="m-260" con="d" wordpos="i">Pô</syl>
                                                     </verse>
                                                 </rdg>
                                             </app>
                                         </note>
-                                        <note dur="16" dur.ppq="64" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:09.3" vel="0">
-                                            <app>
+                                        <note xml:id="m-219" dur="16" dur.ppq="64" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:09.3" vel="0">
+                                            <app>    
                                                 <lem source="manuscrit">
-                                                   <verse>
-                                                        <syl con="d" wordpos="t">ron</syl>
+                                                    <verse>
+                                                        <syl xml:id="m-254" wordpos="t">ron</syl>
                                                     </verse>
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl con="d" wordpos="i">ront</syl>
+                                                        <syl xml:id="m-258" wordpos="t">ront</syl>
                                                     </verse>
                                                 </rdg>
-                                                <rdg source="feller">
+                                                <rdg source="feller">        
                                                     <verse>
-                                                        <syl con="d" wordpos="i">ront</syl>
+                                                        <syl xml:id="m-262" wordpos="t">ront</syl>
                                                     </verse>
                                                 </rdg>
                                             </app>
                                         </note>
-                                        <note dur="16" dur.ppq="64" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:00:09.45" vel="0">
-                                            <app>
+                                        <note xml:id="m-220" dur="16" dur.ppq="64" oct="5" pname="e" pnum="76" stem.dir="down" tstamp.real="00:00:09.45" vel="0">
+                                            <app>    
                                                 <lem source="manuscrit">
-                                                   <verse>
-                                                        <syl con="d" wordpos="t">tò</syl>
+                                                    <verse>
+                                                        <syl xml:id="m-264">tò</syl>
                                                     </verse>
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl con="d" wordpos="i">tò</syl>
+                                                        <syl xml:id="m-266">tò</syl>
                                                     </verse>
                                                 </rdg>
-                                                <rdg source="feller">
+                                                <rdg source="feller">        
                                                     <verse>
-                                                        <syl con="d" wordpos="i">tot</syl>
+                                                        <syl xml:id="m-268">tot</syl>
                                                     </verse>
                                                 </rdg>
                                             </app>
@@ -687,144 +688,145 @@
                                     </beam>
                                 </layer>
                             </staff>
-                            <staff n="2">
-                                <layer n="1">
-                                    <note dur="2" dur.ppq="512" oct="2" pname="b" pnum="47" stem.dir="up" tstamp.real="00:00:07.2" vel="0"/>
-                                    <note dur="4" dur.ppq="256" oct="3" pname="c" pnum="48" stem.dir="up" tstamp.real="00:00:08.4" vel="0"/>
-                                    <note dur="4" dur.ppq="256" oct="3" pname="e" pnum="52" stem.dir="down" tstamp.real="00:00:09" vel="0"/>
+                            <staff xml:id="m-269" n="2">
+                                <layer xml:id="m-270" n="1">
+                                    <note xml:id="m-271" dur="2" dur.ppq="512" oct="1" pname="b" pnum="35" stem.dir="up" tstamp.real="00:00:07.2" vel="0"/>
+                                    <note xml:id="m-272" dur="4" dur.ppq="256" oct="2" pname="c" pnum="36" stem.dir="up" tstamp.real="00:00:08.4" vel="0"/>
+                                    <note xml:id="m-273" dur="4" dur.ppq="256" oct="2" pname="e" pnum="40" stem.dir="down" tstamp.real="00:00:09" vel="0"/>
                                 </layer>
                             </staff>
                         </measure>
-                        <measure n="5">
-                            <staff n="1">
-                                <layer n="1">
-                                    <beam>
-                                        <note dots="1" dur="8" dur.ppq="192" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:09.6" vel="0">
-                                            <app>
+                        <measure xml:id="m-274" n="5">
+                            <staff xml:id="m-275" n="1">
+                                <layer xml:id="m-276" n="1">
+                                    <beam xml:id="m-278">
+                                        <note xml:id="m-277" dots="1" dur="8" dur.ppq="192" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:09.6" vel="0">
+                                            <app>    
                                                 <lem source="manuscrit">
-                                                   <verse>
-                                                        <syl con="d" wordpos="t">bas,</syl>
+                                                    <verse>
+                                                        <syl xml:id="m-286">bas</syl>
                                                     </verse>
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl con="d" wordpos="i">bas</syl>
+                                                        <syl xml:id="m-288">bas</syl>
                                                     </verse>
                                                 </rdg>
-                                                <rdg source="feller">
+                                                <rdg source="feller">        
                                                     <verse>
-                                                        <syl con="d" wordpos="i">bas</syl>
+                                                        <syl xml:id="m-290">bas</syl>
                                                     </verse>
                                                 </rdg>
                                             </app>
                                         </note>
-                                        <note dur="16" dur.ppq="64" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:10.05" vel="0">
-                                            <app>
+                                        <note xml:id="m-279" dur="16" dur.ppq="64" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:10.05" vel="0">
+                                            <app>    
                                                 <lem source="manuscrit">
-                                                   <verse>
-                                                        <syl con="d" wordpos="t">Le</syl>
+                                                    <verse>
+                                                        <syl xml:id="m-292" con="d" wordpos="i">le</syl>
                                                     </verse>
                                                 </lem>
                                                 <rdg source="livret">
                                                     <verse>
-                                                        <syl con="d" wordpos="i">le</syl>
+                                                        <syl xml:id="m-296" con="d" wordpos="i">le</syl>
                                                     </verse>
                                                 </rdg>
-                                                <rdg source="feller">
+                                                <rdg source="feller">        
                                                     <verse>
-                                                        <syl con="d" wordpos="i">lèt</syl>
-                                                    </verse>
-                                                </rdg>
-                                            </app>
-                                        </note>
-                                    </beam>
-                                    <beam>
-                                        <note dur="8" dur.ppq="128" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:10.2" vel="0">
-                                            <app>
-                                                <lem source="manuscrit">
-                                                   <verse>
-                                                        <syl con="d" wordpos="t">chy</syl>
-                                                    </verse>
-                                                </lem>
-                                                <rdg source="livret">
-                                                    <verse>
-                                                        <syl con="d" wordpos="i">chy</syl>
-                                                    </verse>
-                                                </rdg>
-                                                <rdg source="feller">
-                                                    <verse>
-                                                        <syl con="d" wordpos="i">chî</syl>
-                                                    </verse>
-                                                </rdg>
-                                            </app>
-                                        </note>
-                                        <note dur="8" dur.ppq="128" oct="4" pname="b" pnum="71" stem.dir="down" tstamp.real="00:00:10.5" vel="0">
-                                            <app>
-                                                <lem source="manuscrit">
-                                                   <verse>
-                                                        <syl>leu</syl>
-                                                    </verse>
-                                                </lem>
-                                                <rdg source="livret">
-                                                    <verse>
-                                                        <syl>leu</syl>
-                                                    </verse>
-                                                </rdg>
-                                                <rdg source="feller">
-                                                    <verse>
-                                                        <syl>leûs</syl>
+                                                        <syl xml:id="m-300" con="d" wordpos="i">lèt</syl>
                                                     </verse>
                                                 </rdg>
                                             </app>
                                         </note>
                                     </beam>
-                                    <note dur="4" dur.ppq="256" oct="4" pname="g" pnum="67" stem.dir="down" tstamp.real="00:00:10.8" vel="0">
-                                        <app>
-                                            <lem source="manuscrit">
-                                               <verse>
-                                                    <syl>plaie</syl>
+                                    <beam xml:id="m-281">
+                                        <note xml:id="m-280" dur="8" dur.ppq="128" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:10.2" vel="0">
+                                            <app>    
+                                                <lem source="manuscrit">
+                                                    <verse>
+                                                        <syl xml:id="m-294" wordpos="t">chy</syl>
+                                                    </verse>
+                                                </lem>
+                                                <rdg source="livret">
+                                                    <verse>
+                                                        <syl xml:id="m-298" wordpos="t">chy</syl>
+                                                    </verse>
+                                                </rdg>
+                                                <rdg source="feller">        
+                                                    <verse>
+                                                        <syl xml:id="m-302" wordpos="t">chî</syl>
+                                                    </verse>
+                                                </rdg>
+                                            </app>
+                                        </note>
+                                        <note xml:id="m-282" dur="8" dur.ppq="128" oct="4" pname="b" pnum="71" stem.dir="down" tstamp.real="00:00:10.5" vel="0">
+                                            <app>    
+                                                <lem source="manuscrit">
+                                                    <verse>
+                                                        <syl xml:id="m-304">leu</syl>
+                                                    </verse>
+                                                </lem>
+                                                <rdg source="livret">
+                                                    <verse>
+                                                        <syl xml:id="m-306">leu</syl>
+                                                    </verse>
+                                                </rdg>
+                                                <rdg source="feller">        
+                                                    <verse>
+                                                        <syl xml:id="m-308">leûs</syl>
+                                                    </verse>
+                                                </rdg>
+                                            </app>
+                                        </note>
+                                    </beam>
+                                    <note xml:id="m-283" dur="4" dur.ppq="256" oct="4" pname="g" pnum="67" stem.dir="down" tstamp.real="00:00:10.8" vel="0">
+                                        <app>    
+                                             <lem source="manuscrit">
+                                                <verse>
+                                                    <syl xml:id="m-310">plaie</syl>
                                                 </verse>
                                             </lem>
                                             <rdg source="livret">
                                                 <verse>
-                                                    <syl>plâie.</syl>
+                                                    <syl xml:id="m-312">plâie.</syl>
                                                 </verse>
                                             </rdg>
-                                            <rdg source="feller">
+                                            <rdg source="feller">        
                                                 <verse>
-                                                    <syl>plåyes.</syl>
+                                                    <syl xml:id="m-314">plåyes.</syl>
                                                 </verse>
                                             </rdg>
                                         </app>
                                     </note>
-                                    <rest dur="4" dur.ppq="256" tstamp.real="00:00:11.4"/>
+                                    <rest xml:id="m-284" dur="4" dur.ppq="256" tstamp.real="00:00:11.4"/>
                                 </layer>
-                            </staff>>
-                            <staff n="2">
-                                <layer n="1">
-                                    <note dur="2" dur.ppq="512" oct="3" pname="e" pnum="52" stem.dir="down" tstamp.real="00:00:09.6" vel="0"/>
-                                    <rest dur="4" dur.ppq="256" tstamp.real="00:00:10.8"/>
-                                    <note dur="4" dur.ppq="256" oct="3" pname="d" pnum="50" stem.dir="down" tstamp.real="00:00:11.4" vel="0"/>
+                            </staff>
+                            <staff xml:id="m-315" n="2">
+                                <layer xml:id="m-316" n="1">
+                                    <note xml:id="m-317" dur="2" dur.ppq="512" oct="2" pname="e" pnum="40" stem.dir="down" tstamp.real="00:00:09.6" vel="0"/>
+                                    <rest xml:id="m-318" dur="4" dur.ppq="256" tstamp.real="00:00:10.8"/>
+                                    <note xml:id="m-319" dur="4" dur.ppq="256" oct="2" pname="d" pnum="38" stem.dir="down" tstamp.real="00:00:11.4" vel="0"/>
                                 </layer>
                             </staff>
                         </measure>
-                        <measure n="6" right="end">
-                            <staff n="1">
-                                <layer n="1">
-                                    <mRest tstamp.real="00:00:12"/>
+                        <measure xml:id="m-320" n="6" right="end">
+                            <staff xml:id="m-321" n="1">
+                                <layer xml:id="m-322" n="1">
+                                    <mRest xml:id="m-323" tstamp.real="00:00:12"/>
                                 </layer>
                             </staff>
-                            <fermata form="norm" layer="1" shape="curved" staff="1" tstamp="1"/>
-                            <staff n="2">
-                                <layer n="1">
-                                    <note dur="4" dur.ppq="256" oct="3" pname="g" pnum="55" stem.dir="down" tstamp.real="00:00:12" vel="0"/>
-                                    <rest dur="4" dur.ppq="256" tstamp.real="00:00:12.6"/>
-                                    <rest dur="2" dur.ppq="512" tstamp.real="00:00:13.2"/>
+                            <staff xml:id="m-325" n="2">
+                                <layer xml:id="m-326" n="1">
+                                    <note xml:id="m-327" dur="4" dur.ppq="256" oct="2" pname="g" pnum="43" stem.dir="down" tstamp.real="00:00:12" vel="0"/>
+                                    <rest xml:id="m-329" dur="4" dur.ppq="256" tstamp.real="00:00:12.6"/>
+                                    <rest xml:id="m-330" dur="2" dur.ppq="512" tstamp.real="00:00:13.2"/>
                                 </layer>
                             </staff>
-                            <fermata form="norm" layer="1" shape="curved" staff="2" tstamp="1"/>
+                            <fermata xml:id="m-324" form="norm" layer="1" shape="curved" staff="1" tstamp="1"/>
+                            <fermata xml:id="m-328" form="norm" layer="1" shape="curved" staff="2" tstamp="1"/>
                         </measure>
                     </section>
+                    <annot xml:id="m-24" type="duration">00:00:14.7</annot>
                 </score>
             </mdiv>
         </body>

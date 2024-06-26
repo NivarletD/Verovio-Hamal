@@ -92,7 +92,7 @@
         <body xml:id="m-22">
             <mdiv xml:id="m-23">
                 <score xml:id="m-25">
-                    <scoreDef xml:id="m-26" lyric.name="Times New Roman" meter.count="4" meter.sym="common" meter.unit="4" music.name="Opus Std" page.botmar="15mm" page.height="279.4mm" page.leftmar="24mm" page.rightmar="24mm" page.topmar="15mm" page.width="215.9mm" ppq="256" spacing.staff="12" spacing.system="15" text.name="Times New Roman" vu.height="0.6mm">
+                    <scoreDef xml:id="m-26" lyric.name="Times New Roman" meter.count="4" meter.sym="common" meter.unit="4" music.name="Opus Std" page.botmar="15mm" page.height="279.4mm" page.leftmar="24mm" page.rightmar="24mm" page.topmar="15mm" page.width="215.9mm" ppq="256" spacing.staff="15" spacing.system="15" text.name="Times New Roman" vu.height="0.6mm">
                         <staffGrp xml:id="m-27">
                             <staffDef xml:id="m-28" clef.line="1" clef.shape="C" key.mode="major" key.sig="0" lines="5" n="1">
                                 <label xml:id="m-29">Dessus</label>

@@ -269,17 +269,17 @@
                                         <app>
                                             <lem source="manuscrit">
                                                 <verse>
-                                                    <syl con="d" wordpos="i">gnou,</syl>
+                                                    <syl>gnou,</syl>
                                                 </verse>
                                             </lem>
                                             <rdg source="livret">
                                                 <verse>
-                                                    <syl con="d" wordpos="i">gnou ;</syl>
+                                                    <syl>gnou ;</syl>
                                                 </verse>
                                             </rdg>
                                             <rdg source="feller">
                                                 <verse>
-                                                    <syl con="d" wordpos="i">gnou ;</syl>
+                                                    <syl>gnou ;</syl>
                                                 </verse>
                                             </rdg>
                                         </app>
@@ -384,8 +384,8 @@
                                             </app>
                                         </note>
                                     </beam>
-                                    <beam xml:id="m-81">
-                                        <note xml:id="m-80" dur="8" dur.ppq="128" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:04.2" vel="0">
+                                    <beam>
+                                        <note dur="8" dur.ppq="128" oct="5" pname="c" pnum="72" stem.dir="down" tstamp.real="00:00:04.2" vel="0">
                                             <app>
                                                 <lem source="manuscrit">
                                                     <verse>
@@ -404,7 +404,7 @@
                                                 </rdg>
                                             </app>
                                         </note>
-                                        <note xml:id="m-82" dur="8" dur.ppq="128" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:04.5" vel="0">
+                                        <note dur="8" dur.ppq="128" oct="5" pname="d" pnum="74" stem.dir="down" tstamp.real="00:00:04.5" vel="0">
                                             <app>
                                                 <lem source="manuscrit">
                                                     <verse>
@@ -426,7 +426,7 @@
                                     </beam>
                                 </layer>
                             </staff>
-                            <staff xml:id="m-101" n="2">
+                            <staff n="2">
                                 <layer xml:id="m-102" n="1">
                                     <note xml:id="m-103" dur="2" dur.ppq="512" oct="3" pname="c" pnum="48" stem.dir="up" tstamp.real="00:00:02.4" vel="0"/>
                                     <note xml:id="m-104" dur="2" dur.ppq="512" oct="2" pname="a" pnum="45" stem.dir="up" tstamp.real="00:00:03.6" vel="0"/>
@@ -799,7 +799,7 @@
                                     </note>
                                     <rest dur="4" dur.ppq="256" tstamp.real="00:00:11.4"/>
                                 </layer>
-                            </staff>
+                            </staff>>
                             <staff n="2">
                                 <layer n="1">
                                     <note dur="2" dur.ppq="512" oct="3" pname="e" pnum="52" stem.dir="down" tstamp.real="00:00:09.6" vel="0"/>
@@ -814,6 +814,7 @@
                                     <mRest tstamp.real="00:00:12"/>
                                 </layer>
                             </staff>
+                            <fermata form="norm" layer="1" shape="curved" staff="1" tstamp="1"/>
                             <staff n="2">
                                 <layer n="1">
                                     <note dur="4" dur.ppq="256" oct="3" pname="g" pnum="55" stem.dir="down" tstamp.real="00:00:12" vel="0"/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-16" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <mei xml:id="m-1" meiversion="4.0.1" xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink">
     <meiHead xml:id="m-2">
         <fileDesc xml:id="m-3">
@@ -92,7 +92,7 @@
         <body xml:id="m-22">
             <mdiv xml:id="m-23">
                 <score xml:id="m-25">
-                    <scoreDef xml:id="m-26" lyric.name="Times New Roman" meter.count="4" meter.sym="common" meter.unit="4" music.name="Opus Std" page.botmar="15mm" page.height="279.4mm" page.leftmar="24mm" page.rightmar="24mm" page.topmar="15mm" page.width="215.9mm" ppq="256" spacing.staff="15" spacing.system="15" text.name="Times New Roman" vu.height="0.6mm">
+                    <scoreDef xml:id="m-26" lyric.name="Times New Roman" meter.count="4" meter.sym="common" meter.unit="4" music.name="Opus Std" page.botmar="15mm" page.height="279.4mm" page.leftmar="24mm" page.rightmar="24mm" page.topmar="15mm" page.width="215.9mm" ppq="256" spacing.staff="15" spacing.system="10" text.name="Times New Roman" vu.height="0.6mm">
                         <staffGrp xml:id="m-27">
                             <staffDef xml:id="m-28" clef.line="1" clef.shape="C" key.mode="major" key.sig="0" lines="5" n="1">
                                 <label xml:id="m-29">Dessus</label>
@@ -100,7 +100,7 @@
                                 <!-- voice.female.soprano.ensemble.ah -->
                                 <instrDef xml:id="m-32" midi.channel="1" midi.pan="26" midi.volume="100"/>
                             </staffDef>
-                            <staffDef xml:id="m-33" clef.line="4" clef.shape="F" key.mode="major" key.sig="0" lines="5" n="2" trans.diat="-7" trans.semi="-12">
+                            <staffDef xml:id="m-33" clef.line="4" clef.shape="F" key.mode="major" key.sig="0" lines="5" n="2" trans.diat="0" trans.semi="0">
                                 <label xml:id="m-34">Contre basse</label>
                                 <labelAbbr xml:id="m-35">Cb.</labelAbbr>
                                 <!-- strings.contrabass.ensemble -->
@@ -257,7 +257,7 @@
                             </staff>
                             <staff xml:id="m-90" n="2">
                                 <layer xml:id="m-91" n="1">
-                                    <note xml:id="m-92" dur="1" dur.ppq="1024" oct="1" pname="b" pnum="35" stem.dir="up" tstamp.real="00:00:00" vel="0"/>
+                                    <note xml:id="m-92" dur="1" dur.ppq="1024" oct="2" pname="b" pnum="35" stem.dir="up" tstamp.real="00:00:00" vel="0"/>
                                 </layer>
                             </staff>
                         </measure>
@@ -429,8 +429,8 @@
                             </staff>
                             <staff xml:id="m-165" n="2">
                                 <layer xml:id="m-166" n="1">
-                                    <note xml:id="m-167" dur="2" dur.ppq="512" oct="2" pname="c" pnum="36" stem.dir="up" tstamp.real="00:00:02.4" vel="0"/>
-                                    <note xml:id="m-168" dur="2" dur.ppq="512" oct="1" pname="a" pnum="33" stem.dir="up" tstamp.real="00:00:03.6" vel="0"/>
+                                    <note xml:id="m-167" dur="2" dur.ppq="512" oct="3" pname="c" pnum="36" stem.dir="up" tstamp.real="00:00:02.4" vel="0"/>
+                                    <note xml:id="m-168" dur="2" dur.ppq="512" oct="2" pname="a" pnum="33" stem.dir="up" tstamp.real="00:00:03.6" vel="0"/>
                                 </layer>
                             </staff>
                         </measure>
@@ -521,7 +521,7 @@
                             </staff>
                             <staff xml:id="m-203" n="2">
                                 <layer xml:id="m-204" n="1">
-                                    <note xml:id="m-205" dur="1" dur.ppq="1024" oct="1" pname="g" pnum="31" stem.dir="up" tstamp.real="00:00:04.8" vel="0"/>
+                                    <note xml:id="m-205" dur="1" dur.ppq="1024" oct="2" pname="g" pnum="31" stem.dir="up" tstamp.real="00:00:04.8" vel="0"/>
                                 </layer>
                             </staff>
                         </measure>
@@ -690,9 +690,9 @@
                             </staff>
                             <staff xml:id="m-269" n="2">
                                 <layer xml:id="m-270" n="1">
-                                    <note xml:id="m-271" dur="2" dur.ppq="512" oct="1" pname="b" pnum="35" stem.dir="up" tstamp.real="00:00:07.2" vel="0"/>
-                                    <note xml:id="m-272" dur="4" dur.ppq="256" oct="2" pname="c" pnum="36" stem.dir="up" tstamp.real="00:00:08.4" vel="0"/>
-                                    <note xml:id="m-273" dur="4" dur.ppq="256" oct="2" pname="e" pnum="40" stem.dir="down" tstamp.real="00:00:09" vel="0"/>
+                                    <note xml:id="m-271" dur="2" dur.ppq="512" oct="2" pname="b" pnum="35" stem.dir="up" tstamp.real="00:00:07.2" vel="0"/>
+                                    <note xml:id="m-272" dur="4" dur.ppq="256" oct="3" pname="c" pnum="36" stem.dir="up" tstamp.real="00:00:08.4" vel="0"/>
+                                    <note xml:id="m-273" dur="4" dur.ppq="256" oct="3" pname="e" pnum="40" stem.dir="down" tstamp.real="00:00:09" vel="0"/>
                                 </layer>
                             </staff>
                         </measure>
@@ -803,9 +803,9 @@
                             </staff>
                             <staff xml:id="m-315" n="2">
                                 <layer xml:id="m-316" n="1">
-                                    <note xml:id="m-317" dur="2" dur.ppq="512" oct="2" pname="e" pnum="40" stem.dir="down" tstamp.real="00:00:09.6" vel="0"/>
+                                    <note xml:id="m-317" dur="2" dur.ppq="512" oct="3" pname="e" pnum="40" stem.dir="down" tstamp.real="00:00:09.6" vel="0"/>
                                     <rest xml:id="m-318" dur="4" dur.ppq="256" tstamp.real="00:00:10.8"/>
-                                    <note xml:id="m-319" dur="4" dur.ppq="256" oct="2" pname="d" pnum="38" stem.dir="down" tstamp.real="00:00:11.4" vel="0"/>
+                                    <note xml:id="m-319" dur="4" dur.ppq="256" oct="3" pname="d" pnum="38" stem.dir="down" tstamp.real="00:00:11.4" vel="0"/>
                                 </layer>
                             </staff>
                         </measure>
@@ -817,13 +817,13 @@
                             </staff>
                             <staff xml:id="m-325" n="2">
                                 <layer xml:id="m-326" n="1">
-                                    <note xml:id="m-327" dur="4" dur.ppq="256" oct="2" pname="g" pnum="43" stem.dir="down" tstamp.real="00:00:12" vel="0"/>
+                                    <note xml:id="m-327" dur="4" dur.ppq="256" oct="3" pname="g" pnum="43" stem.dir="down" tstamp.real="00:00:12" vel="0"/>
                                     <rest xml:id="m-329" dur="4" dur.ppq="256" tstamp.real="00:00:12.6"/>
                                     <rest xml:id="m-330" dur="2" dur.ppq="512" tstamp.real="00:00:13.2"/>
                                 </layer>
                             </staff>
-                            <fermata xml:id="m-324" form="norm" layer="1" shape="curved" staff="1" tstamp="1"/>
-                            <fermata xml:id="m-328" form="norm" layer="1" shape="curved" staff="2" tstamp="1"/>
+                            <fermata xml:id="m-324" form="norm" layer="1" shape="curved" staff="1" tstamp="2.3"/>
+                            <fermata xml:id="m-328" form="norm" layer="1" shape="curved" staff="2" tstamp="1.3"/>
                         </measure>
                     </section>
                     <annot xml:id="m-24" type="duration">00:00:14.7</annot>

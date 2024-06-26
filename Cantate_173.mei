@@ -4,7 +4,15 @@
         <fileDesc xml:id="m-3">
             <titleStmt>
                 <title type="main">Cantate liégeoise, De Smet, Cat. 173</title>
-                <title type="subordonate">Volla don l’moumen tan d’zyré</title>
+                <title type="subordonate">
+                    <app>
+                        <lem source="manuscrit">
+                            Volla don l’moumen tan d’zyré</title>
+                        </lem>
+                        <rdg source="livret">
+                            Volla don l’moumen tan d’zyré</title>
+                        </lem>
+                    </app>
                 <title type="subtitle">A Digital Edition</title>
                 <composer>
                     <persName auth="RISM" auth.uri="https://rism.online/people/30012637">Hamal, Jean-Noël (1709-1778)</persName>

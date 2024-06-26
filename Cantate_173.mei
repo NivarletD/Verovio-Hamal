@@ -822,7 +822,7 @@
                                     <rest xml:id="m-330" dur="2" dur.ppq="512" tstamp.real="00:00:13.2"/>
                                 </layer>
                             </staff>
-                            <fermata xml:id="m-324" form="norm" layer="1" shape="curved" staff="1" tstamp="3"/>
+                            <fermata xml:id="m-324" form="norm" layer="1" shape="curved" staff="1" tstamp="1"/>
                             <fermata xml:id="m-328" form="norm" layer="1" shape="curved" staff="2" tstamp="1"/>
                         </measure>
                     </section>

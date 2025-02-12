@@ -112,12 +112,10 @@
                         <app>
                             <lem source="original"/>
                             <rdg source="modern">
-                                <staffDef xml:id="m-28" clef.line="2" clef.shape="G" key.mode="major" key.sig="0" lines="5" n="1">
-                                    <label xml:id="m-29">Dessus</label>
-                                    <labelAbbr xml:id="m-30">S.</labelAbbr>
-                                    <!-- voice.female.soprano.ensemble.ah -->
-                                    <instrDef xml:id="m-32" midi.channel="1" midi.pan="26" midi.volume="100"/>
-                            </staffDef>
+                                <staffGrp xml:id="m-27">
+                                    <staffDef xml:id="m-28" clef.line="1" clef.shape="C" key.mode="major" key.sig="0" lines="5" n="1"/>
+                                    <staffDef xml:id="m-33" clef.line="4" clef.shape="F" key.mode="major" key.sig="0" lines="5" n="2" trans.diat="0" trans.semi="0"/>
+                                </staffGrp>
                             </rdg>
                         </app>
                         <pb xml:id="m-20"/>

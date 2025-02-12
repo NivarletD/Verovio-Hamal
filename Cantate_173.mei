@@ -109,15 +109,6 @@
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="m-38">
-                        <app>
-                            <lem source="original"/>
-                            <rdg source="modern">
-                                <staffGrp xml:id="m-27">
-                                    <staffDef xml:id="m-28" clef.line="1" clef.shape="C" key.mode="major" key.sig="0" lines="5" n="1"/>
-                                    <staffDef xml:id="m-33" clef.line="4" clef.shape="F" key.mode="major" key.sig="0" lines="5" n="2" trans.diat="0" trans.semi="0"/>
-                                </staffGrp>
-                            </rdg>
-                        </app>
                         <pb xml:id="m-20"/>
                         <sb xml:id="m-40"/>
                         <measure xml:id="m-39" n="1">

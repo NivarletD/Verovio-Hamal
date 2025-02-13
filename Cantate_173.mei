@@ -109,25 +109,6 @@
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="m-38">
-                        <app>
-                            <lem source="original"></lem>
-                            <rdg source"modern">
-                                <staffGrp xml:id="m-27">
-                                    <staffDef xml:id="m-28" clef.line="2" clef.shape="g" key.mode="major" key.sig="0" lines="5" n="1">
-                                        <label xml:id="m-29">Dessus</label>
-                                        <labelAbbr xml:id="m-30">S.</labelAbbr>
-                                        <!-- voice.female.soprano.ensemble.ah -->
-                                        <instrDef xml:id="m-32" midi.channel="1" midi.pan="26" midi.volume="100"/>
-                                    </staffDef>
-                                    <staffDef xml:id="m-33" clef.line="4" clef.shape="F" key.mode="major" key.sig="0" lines="5" n="2" trans.diat="0" trans.semi="0">
-                                        <label xml:id="m-34">Contre basse</label>
-                                        <labelAbbr xml:id="m-35">Cb.</labelAbbr>
-                                        <!-- strings.contrabass.ensemble -->
-                                        <instrDef xml:id="m-37" midi.channel="1" midi.pan="63" midi.volume="100"/>
-                                    </staffDef>
-                                </staffGrp>
-                            </rdg>
-                        </app>
                         <pb xml:id="m-20"/>
                         <sb xml:id="m-40"/>
                         <measure xml:id="m-39" n="1">

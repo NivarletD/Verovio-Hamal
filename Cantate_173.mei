@@ -109,6 +109,10 @@
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="m-38">
+                        <app>
+                            <lem source="original"></lem>
+                            <rdg source"modern"><staffDef clef.line="2" clef.shape=" G" key.mode="major" key.sig="0" lines="5" n="1"/></rdg>
+                        </app>
                         <pb xml:id="m-20"/>
                         <sb xml:id="m-40"/>
                         <measure xml:id="m-39" n="1">
